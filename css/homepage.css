@@ -1,0 +1,404 @@
+/*简单reset*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei";
+}
+
+/*必须，关系到单个page能否全屏显示*/
+html, body {
+	height: 100%;
+	overflow: hidden;
+}
+#container, .sections, .section {
+
+	/*必须，兼容，在浏览器不支持transform属性时，通过改变top/left完成滑动动画*/
+	position: relative;            /*必须，关系到单个page能否全屏显示*/
+	height: 100%;
+}
+.section {
+
+	/*有背景图时必须，关系到背景图能够全屏显示*/
+	background-color: transparent;
+	background-size: cover;
+    background-position-y: 56px;
+}
+
+/*非必需，只是用来设置背景图，id不会被插件用到*/
+#section0 {
+	background-image: url(../img/icon/first-pic.jpg);
+}
+#section1 {
+
+	/*background-image: url(img/img2.png);*/
+}
+#section2 {
+
+	/*background-image: url(img/img3.png);*/
+}
+#section3 {
+
+	/*background-image: url(img/img4.png);*/
+}
+
+/*以下样式用来设置slider样式，可自行修改*/
+.pages {
+	position: fixed;
+	right: 10px;
+	top: 38%;
+	list-style: none;
+}
+.pages li {
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	margin: 12px 0 0 7px;
+	background: url(../img/i-active.png) no-repeat;
+	cursor: pointer;
+	position: relative;
+}
+.pages li.active {
+	margin-left: 3px;
+	width: 30px;
+	height: 30px;
+	background: url(../img/active.png) no-repeat;
+}
+.pages li .bo-l {
+	width: 2px;
+	height: 18px;
+	background: url(../img/line.png) no-repeat;
+	position: absolute;
+	bottom: -14px;
+	left: 43%;
+}
+#header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 56px;
+	background: url(../img/top-pic.png) no-repeat;
+	z-index: 100;
+}
+#headerX {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 56px;
+	background: #fff;
+	z-index: 100;
+}
+.header-wrap {
+	width: 100%;
+	height: 100%;
+}
+.pure {
+	position: relative;
+}
+.box {
+	position: relative;
+	height: 100%;
+	margin: 0 auto;
+	line-height: 56px;
+}
+.box-l {
+	margin-left: 17%;
+	float: left;
+	width: 104px;
+	margin-top: 9px;
+}
+.box-l img {
+	width: 100%;
+}
+.box-l-X {
+	margin-left: 366px;
+	float: left;
+	width: 104px;
+	margin-top: 16px;
+	margin-bottom: 15px;
+}
+.box-2-X {
+	margin: 19px 0px 22px 14px;
+	float: left;
+}
+.box-l-X img {
+	width: 100%;
+}
+.box-r {
+	float: right;
+	color: #fff;
+	margin-right: 373px;
+	line-height: 67px;
+}
+.go-index {
+	position: relative;
+	display: block;
+	float: left;
+	margin-left: 54px;
+	font-size: 14px;
+	overflow: visible;
+}
+.product-advantage {
+	margin-left: 56px;
+}
+.integral-cloud {
+	margin-left: 68px;
+}
+#header1 a {
+	color: #fff;
+}
+#header2 a {
+	color: #565656;
+}
+a {
+	text-decoration: none;
+}
+img {
+	border: none;
+}
+.content-one, .content-two, .content-three, .content-four, .content-five, .content-six {
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+}
+.content-one-content, .content-two-content, .content-three-content, .content-four-content, .content-five-content, .content-six-content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	top: 56px;
+}
+.tp101 {
+	width: 50%;
+	float: left;
+}
+.tip {
+	width: 76%;
+}
+.tip img {
+	position: fixed;
+	top:536px;
+	left: 450px;`
+}
+.tip2 {
+	width: 86%;
+	margin-top: 6%;
+	margin: 6% auto 0 auto;
+}
+.tip2 img {
+	width: 100%;
+}
+.help-bar {
+	position: fixed;
+	bottom: 0;
+}
+.help-bar-content {
+	width: 1250px;
+	margin: 0 auto;
+}
+.title-two {
+	color: #0084cd;
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.content-two-box {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 4%;
+}
+.cbox {
+	float: left;
+	width: 19%;
+	height: 304px;
+	border: 1px solid #0084cd;
+	margin-right: 2%;
+}
+.cbox img {
+	display: block;
+	margin-top: 32px;
+	width: 48%;
+}
+.cbox * {
+	margin: 0 auto;
+	text-align: center;
+}
+.content-two .text {
+	font-size: 18px;
+	color: #757575;
+	margin-top: 32px;
+}
+.content-two .text2 {
+	font-size: 14px;
+	color: #0084cd;
+	margin-top: 40px;
+}
+.tp102 {
+	width: 50%;
+	float: left;
+}
+.tip3 {
+	width: 90%;
+}
+.tip3 img {
+	width: 100%;
+}
+.tip5 {
+	width: 64%;
+	margin-top: 8%;
+}
+.tip5 img {
+	width: 100%;
+}
+.iphone7 {
+	width: 50%;
+	float: left;
+	margin-left: -24%;
+	margin-top: 16%;
+}
+.iphone7 img {
+	width: 138%;
+}
+.good-type {
+	width: 58%;
+	margin: 0 auto;
+}
+.good-type img {
+	width: 100%;
+}
+.brand {
+	position: relative;
+}
+.brand .brand-list-one {
+	width: 20%;
+	float: left;
+	height: 80px;
+}
+.brand .brand-list-one img {
+	display: block;
+	margin: 0 auto;
+}
+.brand-wrap {
+	overflow: hidden;
+	width: 93%;
+	margin: 0 auto;
+	padding-top: 28px;
+}
+.brand-one, .brand-two {
+	overflow: hidden;
+	width: 100%;
+}
+.title101 {
+	color: #0084cd;
+	font-size: 20px;
+}
+.add-box {
+	position: relative;
+}
+.add-box .map {
+	float: left;
+	width: 44%;
+	margin-top: 4%;
+	margin-right: 4%;
+}
+.add-box .map img {
+	width: 100%;
+}
+.add-box .map-gap {
+	float: left;
+	width: 9px;
+	height: 326px;
+	overflow: hidden;
+	margin-right: 4%;
+}
+.add-box .map-gap img {
+	height: 100%;
+}
+.map-right {
+	overflow: hidden;
+	float: left;
+}
+.addr-dem {
+	margin-bottom: 5%;
+	position: relative;
+	overflow: hidden;
+	color: #565656;
+	font-size: 14px;
+}
+.addr-dem-img {
+	float: left;
+	margin-right: 28px;
+}
+.addr-dem-text {
+	float: left;
+}
+.map-right {
+	float: left;
+	width: 46%;
+	margin-top: 3%;
+}
+.bot {
+	position: absolute;
+	width: 100%;
+	height: 180px;
+	background: url(../img/last/bot.jpg) no-repeat;
+	bottom: 0;
+}
+.bot-ul {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.bot-li {
+	width: 25%;
+	float: left;
+	font-size: 14px;
+	color: #fff;
+	text-align: left;
+}
+.bot-li-text {
+	margin-bottom: 12px;
+	text-indent: 36%;
+}
+.bot-head {
+	font-size: 18px;
+}
+.bot-ul a {
+	color: #fff;
+}
+.drop-ul {
+	position: absolute;
+	min-width: 90px;
+	color: #fff;
+	top: 56px;
+	font-size: 14px;
+	padding-left: 16px;
+	z-index: 100;
+	background: rgba(0, 0, 0, 0.3);
+	display: none;
+}
+.drop-li {
+	line-height: 46px;
+}
+.drop-ul-2 {
+	position: absolute;
+	min-width: 90px;
+	color: #fff;
+	top: 56px;
+	font-size: 14px;
+	padding-left: 16px;
+	z-index: 100;
+	background: #f0f0f0;
+	color: #565656;
+	display: none;
+}
+.drop-li-2 {
+	line-height: 46px;
+}
+.more-info{
+	position: fixed;
+    width: 20px;
+    height: 13px;
+    background: url(../img/icon/more.png) no-repeat;
+    top: 94px;
+    right: 30px;
+}
