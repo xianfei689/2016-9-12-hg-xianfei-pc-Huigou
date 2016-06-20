@@ -134,7 +134,7 @@
                 pageHtml = '<ul class="' + pagesClass + '">';
             _this.activeClass = _this.selectors.active.substring(1);
 
-            for (var i = 0, len = _this.pagesCount; i < len; i++) {
+            for (var i = 0, len = _this.pagesCount+1; i < len; i++) {
                 pageHtml += '<li></li>';
             }
             pageHtml += '</ul>';
