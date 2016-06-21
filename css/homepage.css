@@ -33,13 +33,16 @@ html, body {
 }
 #section2 {
 	background-image: url(../img/icon/img3.jpg);
-	background-position-y: 50px;
+    background-position-y: -18%;
 }
 #section3 {
 	background-image: url(../img/icon/img4.jpg);
 }
 #section4{
 	background-image: url(../img/icon/img5.jpg);
+}
+#section5{
+	background-image: url(../img/icon/img6.jpg);
 }
 
 /*以下样式用来设置slider样式，可自行修改*/
@@ -184,7 +187,7 @@ img {
     height: 400px;
     position: absolute;
     top: 184px;
-    left: 22%;
+    left: 24%;
 }
 .tp101 {
 	width: 50%;
@@ -274,7 +277,7 @@ img {
 	font-size: 16px;
 	color: #4CDFB4;
 	font-family: "microsoft yahei Regular";
-	width: 202px;
+	width: 16%;
 	height: 48px;
 	text-align: center;
 	line-height: 45px;
@@ -294,7 +297,7 @@ img {
 .tip3 img {
 	position: absolute;
 	left: -126px;
-	top: 320px;
+	    top: 43%;
 }
 .tip5 {
 	border: 1px solid #48DEB2;
@@ -305,21 +308,13 @@ img {
 	height: 30px;
 	line-height: 30px;
 	position: absolute;
-	top: 486px;
+	top: 65%;
 	left: -123px;
 }
 .tip5 img {
 	width: 100%;
 }
-.iphone7 {
-	position: absolute;
-    top: 13%;
-    right: -23%;
-}
-.iphone7 img {
-	    width: 86%;
-    height: 471px;
-}
+
 .brand {
 	position: relative;
 }
@@ -341,52 +336,10 @@ img {
 .brand-one, .brand-two {
 	overflow: hidden;
 	width: 100%;
+	margin-top: 20px;
 }
-.add-box {
-	position: relative;
-}
-.add-box .map {
-	float: left;
-	width: 44%;
-	margin-top: 4%;
-	margin-right: 4%;
-}
-.add-box .map img {
-	width: 100%;
-}
-.add-box .map-gap {
-	float: left;
-	width: 9px;
-	height: 326px;
-	overflow: hidden;
-	margin-right: 4%;
-}
-.add-box .map-gap img {
-	height: 100%;
-}
-.map-right {
-	overflow: hidden;
-	float: left;
-}
-.addr-dem {
-	margin-bottom: 5%;
-	position: relative;
-	overflow: hidden;
-	color: #565656;
-	font-size: 14px;
-}
-.addr-dem-img {
-	float: left;
-	margin-right: 28px;
-}
-.addr-dem-text {
-	float: left;
-}
-.map-right {
-	float: left;
-	width: 46%;
-	margin-top: 3%;
-}
+
+
 .bot {
 	position: absolute;
 	width: 100%;
@@ -459,7 +412,7 @@ img {
 	font-size: 37px;
 	position: absolute;
 	left: -129px;
-	top: 206px;
+	top: 28%;
 }
 .content_four_part_4 {
 	width: 100%;
@@ -493,4 +446,8 @@ img {
 }
 .margin_right_20{
 	margin-right: 20px;
+}
+
+.float_left {
+	float: left;
 }
