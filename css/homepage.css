@@ -57,7 +57,7 @@ html, body {
 	position: relative;
 	background-position-x: 2px;
 }
-.pages li:last-child {
+.pages .last_li {
 	width: 20px;
 	height: 37px;
 	background: #fff;
@@ -186,8 +186,8 @@ img {
 }
 .tip img {
 	position: fixed;
-	top: 422px;
-	left: 467px;
+	top: 326px;
+	left: 297px;
 }
 .tip2 {
 	width: 86%;
@@ -205,22 +205,39 @@ img {
 	width: 1250px;
 	margin: 0 auto;
 }
-.title-two {
-	color: #0084cd;
-	font-size: 30px;
+.content-two-content {
+	margin-top: 163px;
+}
+.title-one {
+	color: #6E6E6E;
+	font-size: 40px;
+	font-family: "microsoft yahei light";
 	letter-spacing: 2px;
 	text-align: center;
+	margin-top: 12px;
+}
+.section2-line {
+	display: block;
+	margin: 0 auto;
+}
+.title-two {
+	color: #6E6E6E;
+	font-size: 18px;
+	font-family: "microsoft yahei light";
+	letter-spacing: 8px;
+	text-align: center;
+	margin-top: 11px;
 }
 .content-two-box {
 	position: relative;
 	margin: 0 auto;
 	margin-top: 4%;
+	overflow: hidden;
 }
 .cbox {
 	float: left;
 	width: 19%;
 	height: 304px;
-	margin-right: 2%;
 }
 .cbox img {
 	display: block;
@@ -232,9 +249,30 @@ img {
 	text-align: center;
 }
 .content-two .text {
-	font-size: 18px;
+	font-size: 22px;
 	color: #757575;
 	margin-top: 32px;
+}
+.cbox1 .text {
+	    font-size: 22px;
+    color: #48DEB2;
+    margin-top: 32px;
+    font-family: "microsoft yahei light";
+}
+.know_more{
+	font-size: 16px;
+	font-size: 16px;
+	color: #4CDFB4;
+	font-family: "microsoft yahei Regular";
+	width: 202px;
+	height: 48px;
+	text-align: center;
+	line-height: 45px;
+	 border: 1px solid #4CDFB4;
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */
+    margin: -9px auto;
 }
 .tp102 {
 	width: 50%;
