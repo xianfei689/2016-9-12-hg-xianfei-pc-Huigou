@@ -451,3 +451,22 @@ img {
 .float_left {
 	float: left;
 }
+.last_part_left{
+	    margin-right: 8%;	
+}
+.last_part_line{
+	    margin-right: 6%;
+}
+.last_part_cont{
+	overflow: hidden;
+	margin-top: 88px;
+}
+.last_part_right p{
+	font-size: 16px;
+	color: #fff;
+	font-family: "microsoft yahei light";
+}
+.last_right_inline_left{
+	width: 26px;
+	height: 37px;
+}
