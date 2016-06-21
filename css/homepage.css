@@ -247,11 +247,12 @@ img {
 	float: left;
 	width: 19%;
 	height: 304px;
+	margin-right: 4%;
 }
 .cbox img {
 	display: block;
 	margin-top: 32px;
-	width: 48%;
+	width: 63%;
 }
 .cbox * {
 	margin: 0 auto;
@@ -312,12 +313,12 @@ img {
 }
 .iphone7 {
 	position: absolute;
-	top: 146px;
-	right: -99px;
+    top: 13%;
+    right: -23%;
 }
 .iphone7 img {
-	width: 271px;
-	height: 471px;
+	    width: 86%;
+    height: 471px;
 }
 .brand {
 	position: relative;
