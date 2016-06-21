@@ -124,7 +124,7 @@
             var width = (_this.pagesCount * 100) + '%',
                 cellWidth = (100 / _this.pagesCount).toFixed(2) + '%';
 
-            _this.sections.width(width);
+            _this.sections.width(width);        
             _this.section.width(cellWidth).css('float', 'left');
         }
 
@@ -135,7 +135,12 @@
             _this.activeClass = _this.selectors.active.substring(1);
 
             for (var i = 0, len = _this.pagesCount+1; i < len; i++) {
-                pageHtml += '<li></li>';
+               
+                if (i==len-1) {
+                     pageHtml += '<li class="last_li"></li>';
+                }else{
+                    pageHtml += '<li></li>'; 
+                }
             }
             pageHtml += '</ul>';
 

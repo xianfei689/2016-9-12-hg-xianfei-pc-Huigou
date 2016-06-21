@@ -32,12 +32,17 @@ html, body {
 	background-image: url(../img/icon/img2.jpg);
 }
 #section2 {
-
-	/*background-image: url(img/img3.png);*/
+	background-image: url(../img/icon/img3.jpg);
+    background-position-y: -18%;
 }
 #section3 {
-
-	/*background-image: url(img/img4.png);*/
+	background-image: url(../img/icon/img4.jpg);
+}
+#section4{
+	background-image: url(../img/icon/img5.jpg);
+}
+#section5{
+	background-image: url(../img/icon/img6.jpg);
 }
 
 /*以下样式用来设置slider样式，可自行修改*/
@@ -57,7 +62,7 @@ html, body {
 	position: relative;
 	background-position-x: 2px;
 }
-.pages li:last-child {
+.pages .last_li {
 	width: 20px;
 	height: 37px;
 	background: #fff;
@@ -171,11 +176,18 @@ img {
 	height: 100%;
 	width: 80%;
 }
-.content-one-content, .content-two-content, .content-three-content, .content-four-content, .content-five-content, .content-six-content {
+.content-one-content, .content-two-content, .content-three-content, .content-five-content, .content-six-content {
 	position: relative;
 	width: 100%;
 	height: 100%;
 	top: 56px;
+}
+.content-four-content {
+	    width: 62%;
+    height: 400px;
+    position: absolute;
+    top: 184px;
+    left: 24%;
 }
 .tp101 {
 	width: 50%;
@@ -186,8 +198,8 @@ img {
 }
 .tip img {
 	position: fixed;
-	top: 422px;
-	left: 467px;
+	top: 326px;
+	left: 297px;
 }
 .tip2 {
 	width: 86%;
@@ -205,36 +217,75 @@ img {
 	width: 1250px;
 	margin: 0 auto;
 }
-.title-two {
-	color: #0084cd;
-	font-size: 30px;
+.content-two-content {
+	margin-top: 163px;
+}
+.title-one {
+	color: #6E6E6E;
+	font-size: 40px;
+	font-family: "microsoft yahei light";
 	letter-spacing: 2px;
 	text-align: center;
+	margin-top: 12px;
+}
+.section2-line {
+	display: block;
+	margin: 0 auto;
+}
+.title-two {
+	color: #6E6E6E;
+	font-size: 18px;
+	font-family: "microsoft yahei light";
+	letter-spacing: 8px;
+	text-align: center;
+	margin-top: 11px;
 }
 .content-two-box {
 	position: relative;
 	margin: 0 auto;
 	margin-top: 4%;
+	overflow: hidden;
 }
 .cbox {
 	float: left;
 	width: 19%;
 	height: 304px;
-	margin-right: 2%;
+	margin-right: 4%;
 }
 .cbox img {
 	display: block;
 	margin-top: 32px;
-	width: 48%;
+	width: 63%;
 }
 .cbox * {
 	margin: 0 auto;
 	text-align: center;
 }
 .content-two .text {
-	font-size: 18px;
+	font-size: 22px;
 	color: #757575;
 	margin-top: 32px;
+}
+.cbox1 .text {
+	font-size: 22px;
+	color: #48DEB2;
+	margin-top: 32px;
+	font-family: "microsoft yahei light";
+}
+.know_more {
+	font-size: 16px;
+	font-size: 16px;
+	color: #4CDFB4;
+	font-family: "microsoft yahei Regular";
+	width: 16%;
+	height: 48px;
+	text-align: center;
+	line-height: 45px;
+	border: 1px solid #4CDFB4;
+	-moz-border-radius: 15px;      /* Gecko browsers */
+	-webkit-border-radius: 15px;   /* Webkit browsers */
+	border-radius: 15px;            /* W3C syntax */
+	margin: -9px auto;
 }
 .tp102 {
 	width: 50%;
@@ -244,31 +295,26 @@ img {
 	width: 90%;
 }
 .tip3 img {
-	width: 100%;
+	position: absolute;
+	left: -126px;
+	    top: 43%;
 }
 .tip5 {
-	width: 64%;
-	margin-top: 8%;
+	border: 1px solid #48DEB2;
+	color: #48DEB2;
+	font-size: 16px;
+	text-align: center;
+	width: 126px;
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	top: 65%;
+	left: -123px;
 }
 .tip5 img {
 	width: 100%;
 }
-.iphone7 {
-	width: 50%;
-	float: left;
-	margin-left: -24%;
-	margin-top: 16%;
-}
-.iphone7 img {
-	width: 138%;
-}
-.good-type {
-	width: 58%;
-	margin: 0 auto;
-}
-.good-type img {
-	width: 100%;
-}
+
 .brand {
 	position: relative;
 }
@@ -290,56 +336,10 @@ img {
 .brand-one, .brand-two {
 	overflow: hidden;
 	width: 100%;
+	margin-top: 20px;
 }
-.title101 {
-	color: #0084cd;
-	font-size: 20px;
-}
-.add-box {
-	position: relative;
-}
-.add-box .map {
-	float: left;
-	width: 44%;
-	margin-top: 4%;
-	margin-right: 4%;
-}
-.add-box .map img {
-	width: 100%;
-}
-.add-box .map-gap {
-	float: left;
-	width: 9px;
-	height: 326px;
-	overflow: hidden;
-	margin-right: 4%;
-}
-.add-box .map-gap img {
-	height: 100%;
-}
-.map-right {
-	overflow: hidden;
-	float: left;
-}
-.addr-dem {
-	margin-bottom: 5%;
-	position: relative;
-	overflow: hidden;
-	color: #565656;
-	font-size: 14px;
-}
-.addr-dem-img {
-	float: left;
-	margin-right: 28px;
-}
-.addr-dem-text {
-	float: left;
-}
-.map-right {
-	float: left;
-	width: 46%;
-	margin-top: 3%;
-}
+
+
 .bot {
 	position: absolute;
 	width: 100%;
@@ -406,4 +406,67 @@ img {
 	background: url(../img/icon/more.png) no-repeat;
 	top: 94px;
 	right: 30px;
+}
+.tp102_title {
+	color: #fff;
+	font-size: 37px;
+	position: absolute;
+	left: -129px;
+	top: 28%;
+}
+.content_four_part_4 {
+	width: 100%;
+	margin-top: 41px;
+	text-align: center;
+	font-family: "microsoft yahei light";
+	font-size: 13px;
+	
+}
+.content_four_part_4 p{
+	color:#6E6E6E;
+}
+.content_four_part_4 .cont_title {
+	margin-top: 40px;
+	font-size: 28px;
+	color: #6E6E6E;
+}
+.content_four_part_4 .active {
+	color: #48DEB2;
+}
+.content_four_part_4 img {
+	    margin-top: 66px;
+	    margin-bottom: 50px;
+}
+.content_four_part_4 .cont {
+	width: 201px;
+	height: 352px;
+	margin-right: 40px;
+	border: 1px solid #48DEB2;
+	float: left;
+}
+.margin_right_20{
+	margin-right: 20px;
+}
+
+.float_left {
+	float: left;
+}
+.last_part_left{
+	    margin-right: 8%;	
+}
+.last_part_line{
+	    margin-right: 6%;
+}
+.last_part_cont{
+	overflow: hidden;
+	margin-top: 88px;
+}
+.last_part_right p{
+	font-size: 16px;
+	color: #fff;
+	font-family: "microsoft yahei light";
+}
+.last_right_inline_left{
+	width: 26px;
+	height: 37px;
 }
