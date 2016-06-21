@@ -32,12 +32,14 @@ html, body {
 	background-image: url(../img/icon/img2.jpg);
 }
 #section2 {
-
-	/*background-image: url(img/img3.png);*/
+	background-image: url(../img/icon/img3.jpg);
+	background-position-y: 50px;
 }
 #section3 {
-
-	/*background-image: url(img/img4.png);*/
+	background-image: url(../img/icon/img4.jpg);
+}
+#section4{
+	background-image: url(../img/icon/img5.jpg);
 }
 
 /*以下样式用来设置slider样式，可自行修改*/
@@ -171,11 +173,18 @@ img {
 	height: 100%;
 	width: 80%;
 }
-.content-one-content, .content-two-content, .content-three-content, .content-four-content, .content-five-content, .content-six-content {
+.content-one-content, .content-two-content, .content-three-content, .content-five-content, .content-six-content {
 	position: relative;
 	width: 100%;
 	height: 100%;
 	top: 56px;
+}
+.content-four-content {
+	width: 976px;
+	height: 400px;
+	position: absolute;
+	top: 184px;
+	left: 358px;
 }
 .tp101 {
 	width: 50%;
@@ -254,12 +263,12 @@ img {
 	margin-top: 32px;
 }
 .cbox1 .text {
-	    font-size: 22px;
-    color: #48DEB2;
-    margin-top: 32px;
-    font-family: "microsoft yahei light";
+	font-size: 22px;
+	color: #48DEB2;
+	margin-top: 32px;
+	font-family: "microsoft yahei light";
 }
-.know_more{
+.know_more {
 	font-size: 16px;
 	font-size: 16px;
 	color: #4CDFB4;
@@ -268,11 +277,11 @@ img {
 	height: 48px;
 	text-align: center;
 	line-height: 45px;
-	 border: 1px solid #4CDFB4;
-    -moz-border-radius: 15px;      /* Gecko browsers */
-    -webkit-border-radius: 15px;   /* Webkit browsers */
-    border-radius:15px;            /* W3C syntax */
-    margin: -9px auto;
+	border: 1px solid #4CDFB4;
+	-moz-border-radius: 15px;      /* Gecko browsers */
+	-webkit-border-radius: 15px;   /* Webkit browsers */
+	border-radius: 15px;            /* W3C syntax */
+	margin: -9px auto;
 }
 .tp102 {
 	width: 50%;
@@ -282,30 +291,33 @@ img {
 	width: 90%;
 }
 .tip3 img {
-	width: 100%;
+	position: absolute;
+	left: -126px;
+	top: 320px;
 }
 .tip5 {
-	width: 64%;
-	margin-top: 8%;
+	border: 1px solid #48DEB2;
+	color: #48DEB2;
+	font-size: 16px;
+	text-align: center;
+	width: 126px;
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	top: 486px;
+	left: -123px;
 }
 .tip5 img {
 	width: 100%;
 }
 .iphone7 {
-	width: 50%;
-	float: left;
-	margin-left: -24%;
-	margin-top: 16%;
+	position: absolute;
+	top: 146px;
+	right: -99px;
 }
 .iphone7 img {
-	width: 138%;
-}
-.good-type {
-	width: 58%;
-	margin: 0 auto;
-}
-.good-type img {
-	width: 100%;
+	width: 271px;
+	height: 471px;
 }
 .brand {
 	position: relative;
@@ -328,10 +340,6 @@ img {
 .brand-one, .brand-two {
 	overflow: hidden;
 	width: 100%;
-}
-.title101 {
-	color: #0084cd;
-	font-size: 20px;
 }
 .add-box {
 	position: relative;
@@ -444,4 +452,41 @@ img {
 	background: url(../img/icon/more.png) no-repeat;
 	top: 94px;
 	right: 30px;
+}
+.tp102_title {
+	color: #fff;
+	font-size: 37px;
+	position: absolute;
+	left: -129px;
+	top: 206px;
+}
+.content_four_part_4 {
+	width: 100%;
+	margin-top: 41px;
+	text-align: center;
+	font-family: "microsoft yahei light";
+	font-size: 13px;
+	
+}
+.content_four_part_4 p{
+	color:#6E6E6E;
+}
+.content_four_part_4 .cont_title {
+	margin-top: 40px;
+	font-size: 28px;
+	color: #6E6E6E;
+}
+.content_four_part_4 .active {
+	color: #48DEB2;
+}
+.content_four_part_4 img {
+	    margin-top: 66px;
+	    margin-bottom: 50px;
+}
+.content_four_part_4 .cont {
+	width: 201px;
+	height: 352px;
+	margin-right: 40px;
+	border: 1px solid #48DEB2;
+	float: left;
 }
