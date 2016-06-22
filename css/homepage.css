@@ -33,15 +33,15 @@ html, body {
 }
 #section2 {
 	background-image: url(../img/icon/img3.jpg);
-    background-position-y: -18%;
+	background-position-y: -18%;
 }
 #section3 {
 	background-image: url(../img/icon/img4.jpg);
 }
-#section4{
+#section4 {
 	background-image: url(../img/icon/img5.jpg);
 }
-#section5{
+#section5 {
 	background-image: url(../img/icon/img6.jpg);
 }
 
@@ -70,7 +70,6 @@ html, body {
 	background: url(../img/icon/mouse-active.png) no-repeat;
 	cursor: pointer;
 	position: relative;
-	background-position-x: 2px;
 }
 .pages li.active {
 	margin-left: 3px;
@@ -183,11 +182,11 @@ img {
 	top: 56px;
 }
 .content-four-content {
-	    width: 62%;
-    height: 400px;
-    position: absolute;
-    top: 184px;
-    left: 24%;
+	width: 62%;
+	height: 400px;
+	position: absolute;
+	top: 184px;
+	left: 22.8%;
 }
 .tp101 {
 	width: 50%;
@@ -198,8 +197,8 @@ img {
 }
 .tip img {
 	position: fixed;
-	top: 326px;
-	left: 297px;
+	top: 40%;
+	left: 20%;
 }
 .tip2 {
 	width: 86%;
@@ -246,6 +245,9 @@ img {
 	margin-top: 4%;
 	overflow: hidden;
 }
+.content-two-box .active {
+	color: #48DEB2;
+}
 .cbox {
 	float: left;
 	width: 19%;
@@ -261,14 +263,9 @@ img {
 	margin: 0 auto;
 	text-align: center;
 }
-.content-two .text {
+.cont1-text {
 	font-size: 22px;
-	color: #757575;
-	margin-top: 32px;
-}
-.cbox1 .text {
-	font-size: 22px;
-	color: #48DEB2;
+	color: #6E6E6E;
 	margin-top: 32px;
 	font-family: "microsoft yahei light";
 }
@@ -297,7 +294,7 @@ img {
 .tip3 img {
 	position: absolute;
 	left: -126px;
-	    top: 43%;
+	top: 344px;
 }
 .tip5 {
 	border: 1px solid #48DEB2;
@@ -308,13 +305,12 @@ img {
 	height: 30px;
 	line-height: 30px;
 	position: absolute;
-	top: 65%;
+	top: 520px;
 	left: -123px;
 }
 .tip5 img {
 	width: 100%;
 }
-
 .brand {
 	position: relative;
 }
@@ -336,15 +332,11 @@ img {
 .brand-one, .brand-two {
 	overflow: hidden;
 	width: 100%;
-	margin-top: 20px;
 }
-
-
 .bot {
 	position: absolute;
 	width: 100%;
 	height: 180px;
-	background: url(../img/last/bot.jpg) no-repeat;
 	bottom: 0;
 }
 .bot-ul {
@@ -363,6 +355,7 @@ img {
 .bot-li-text {
 	margin-bottom: 12px;
 	text-indent: 36%;
+	font-size: 12px;
 }
 .bot-head {
 	font-size: 18px;
@@ -412,7 +405,7 @@ img {
 	font-size: 37px;
 	position: absolute;
 	left: -129px;
-	top: 28%;
+	top: 225px;
 }
 .content_four_part_4 {
 	width: 100%;
@@ -420,10 +413,9 @@ img {
 	text-align: center;
 	font-family: "microsoft yahei light";
 	font-size: 13px;
-	
 }
-.content_four_part_4 p{
-	color:#6E6E6E;
+.content_four_part_4 p {
+	color: #6E6E6E;
 }
 .content_four_part_4 .cont_title {
 	margin-top: 40px;
@@ -434,8 +426,8 @@ img {
 	color: #48DEB2;
 }
 .content_four_part_4 img {
-	    margin-top: 66px;
-	    margin-bottom: 50px;
+	margin-top: 66px;
+	margin-bottom: 50px;
 }
 .content_four_part_4 .cont {
 	width: 201px;
@@ -444,29 +436,63 @@ img {
 	border: 1px solid #48DEB2;
 	float: left;
 }
-.margin_right_20{
+.margin_right_20 {
 	margin-right: 20px;
 }
-
 .float_left {
 	float: left;
 }
-.last_part_left{
-	    margin-right: 8%;	
+.last_part_left {
+	margin-right: 4%;
 }
-.last_part_line{
-	    margin-right: 6%;
+.last_part_line {
+	margin-right: 5%;
+	margin-top: 4%;
 }
-.last_part_cont{
+.last_part_cont {
 	overflow: hidden;
 	margin-top: 88px;
 }
-.last_part_right p{
+.last_part_right {
+	width: 41%;
+}
+.last_part_right p {
 	font-size: 16px;
 	color: #fff;
 	font-family: "microsoft yahei light";
 }
-.last_right_inline_left{
+.last_right_inline_left {
 	width: 26px;
 	height: 37px;
+}
+.last_right_cont {
+	width: 100%;
+	height: 48px;
+	margin-bottom: 8%;
+}
+.last_part_right  img {
+	height: 78%;
+	margin-top: 4px;
+}
+.last_right_inline_right {
+	margin-left: 12%;
+}
+.bot-bot {
+	display: none;
+	position: fixed;
+	bottom: 2px;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	color: #757575;
+	font-family: "microsoft yahei light";
+}
+.brand-list-mid {
+	width: 100%;
+	margin: 20px 0;
+}
+.brand-list-mid img {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
 }
