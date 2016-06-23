@@ -16,32 +16,111 @@
 .head p {
 	width: 100%;
 	text-align: center;
-}
-.head .p1 {
-	font-size: 40px;
-	font-family: "SourceHanSansCN";
-	color: #48deb2;
-	font-weight: bold;
-	line-height: 1.15;
-	padding-top: 108px;
-}
-.head .p2 {
-	font-size: 20px;
-	font-family: "MicrosoftYaHeiLight";
-	color: #48deb2;
-	line-height: 2.3;
+	height: 100%;
+	padding-top: 111px;
 }
 
-/*content end*/
-.content {
-	width: 100%;
-	height: 500px;
-	background: orange;
-}
+/*head end*/
 
 /*content start*/
+.content {
+	width: 100%;
+	background: #fff;
+}
+#navigate {
+	height: 180px;
+}
+#navigate a {
+	display: block;
+	width: 69px;
+	height: 30px;
+	padding-top: 15px;
+	text-align: center;
+	color: #454545;
+	margin-top: 54px;
+}
+#navigate .nav-home {
+	float: left;
+	width: 69px;
+	margin-left: 24%;
+}
+#navigate .nav {
+	float: left;
+	width: 69px;
+	margin-left: 4%;
+	line-height: 5px;
+}
+#navigate .nav-1 {
+	margin-left: 17%;
+}
+#navigate .nav-active {
+	border-bottom: 3px solid #48deb2;
+}
+.news {
+	width: 100%;
+	height: 200px;
+	background-color: red;
+}
+.compInfo {
+	width: 100%;
+	height: 200px;
+	background-color: yellow;
+}
+.joinUs {
+	width: 100%;
+	height: 200px;
+	background-color: orange;
+}
+.productCategory {
+	width: 100%;
+	background-color: #fff;
+}
+.successCase {
+	width: 100%;
+	height: 200px;
+	background-color: blue;
+}
+.detailInfo {
+	width: 100%;
+	height: 200px;
+	background-color: orange;
+}
+.titile{
+	width: 100%;
+}
+.titile p{
+	text-align: center;
+	color: #6E6E6E;
+	font-family: "microsoft yahei light";
+	font-size: 18px;
+}
+.titile .title-one{
+	letter-spacing: 2px;
+	margin-top: 12px;
+	font-size: 40px;
+}
+.titile .title-two{
+	margin-top: 11px;
+	letter-spacing: 8px;
+}
+.titile  img{
+	margin: 0 auto;
+	display: block;
+}
+.productImg{
+	width: 100%;
+	
+}
+.productImg img{
+	display: block;
+	margin:0 auto;
+	margin-top: 133px;
+    margin-bottom: 94px;
+}
 
-/*body end*/
+
+
+/*content end*/
 
 /*footer start*/
 .footer {
@@ -63,7 +142,7 @@
 .bot-head {
 	font-size: 18px;
 	color: #a7a7a7;
-	  line-height: 1.2;
+	line-height: 1.2;
 }
 .bot-ul {
 	padding: 40px 20% 0 20%;
