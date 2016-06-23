@@ -2,7 +2,7 @@
 
 /*common start*/
 * {
-	font-family: "microsoft yahei light";
+	font-family: "Microsoft Yahei";
 }
 
 /*common end*/
@@ -30,6 +30,10 @@
 #navigate {
 	height: 180px;
 }
+#navigate img {
+	display: block;
+	margin: 0 auto;
+}
 #navigate a {
 	display: block;
 	width: 69px;
@@ -43,6 +47,7 @@
 	float: left;
 	width: 69px;
 	margin-left: 24%;
+	line-height: 5px;
 }
 #navigate .nav {
 	float: left;
@@ -85,40 +90,38 @@
 	height: 200px;
 	background-color: orange;
 }
-.titile{
+.titile {
 	width: 100%;
 }
-.titile p{
+.titile p {
 	text-align: center;
 	color: #6E6E6E;
-	font-family: "microsoft yahei light";
+	font-family: "Microsoft Yahei";
 	font-size: 18px;
 }
-.titile .title-one{
+.titile .title-one {
 	letter-spacing: 2px;
 	margin-top: 12px;
 	font-size: 40px;
 }
-.titile .title-two{
+.titile .title-two {
 	margin-top: 11px;
 	letter-spacing: 8px;
 }
-.titile  img{
+.titile  img {
 	margin: 0 auto;
 	display: block;
 }
-.productImg{
+.productImg {
 	width: 100%;
-	
 }
-.productImg img{
+.productImg img {
 	display: block;
-	margin:0 auto;
+	margin: 0 auto;
 	margin-top: 133px;
-    margin-bottom: 94px;
+	margin-bottom: 94px;
+	width: 750px;
 }
-
-
 
 /*content end*/
 

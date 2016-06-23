@@ -15,10 +15,13 @@
   			<a class="nav"  title="successCase">成功案例</a>
   		</li>
   		<li>
-  			<a class="nav" title="detailInfo">详细介绍</a>
+  			<a class="nav"  title="detailInfo">详细介绍</a>
   		</li>
   		<li>
   			<a class="nav-home" href="homepage.html" title="home">HOME></a>
+        <img src="img/homedesc/product/navi.png">
   		</li>
   	</ul>
+
+
 
