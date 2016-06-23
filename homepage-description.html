@@ -8,13 +8,22 @@
 	<link rel="stylesheet"type="text/css"href="css/homedesc.css"/>
 </head>
 <body>
-	<div class="head" id="head">
-		<img src="img/homedesc/page1/head.png">
-	</div>	
-	<div class="content"></div>
-	<div class="footer"></div>
+	<div class="head" id="JS_STEP_1">
+		<p class="p1">云集九州商企 汇通天下积分</p>
+		<p class="p2">GATHER IN KYUSHU BUSINESS HUITONG THE WORLD INTEGRAL</p>
+	</div>
+	<div class="content" id="JS_STEP_2"></div>
+	<div class="footer" id="JS_STEP_3"></div>
 </body>
+	<script src="js/jquery-1.12.3.min.js" charset="utf-8"></script>
+	<script src="frame/lib/sea/3.0.0/sea.js"></script>
+	<script src="frame/lib/Rose/1.0.0/Rose.src.js"></script>
+	<script src="frame/lib/handlebars/3.0.3/handlebars.js"></script>
+	<script src="js/config.js" charset="utf-8"></script>
+	<script>
+ 	seajs.use("js/homedesc", function(homedesc) {
+    	homedesc.init();
+	});
+</script>
 
- <script src="js/jquery-1.12.3.min.js" charset="utf-8"></script>
- <script type="text/javascript" src="js/homedesc.js"></script>
 </html>
