@@ -7,7 +7,7 @@
 			<a href="building.html" target="_blank">
 				<div class="bot-li-text">企业公告</div>
 			</a>
-			<a href="building.html" target="_blank">
+			<a href="homepage-description.html?index=0" target="_blank">
 				<div class="bot-li-text">热点新闻</div>
 			</a>
 		</div>
@@ -15,10 +15,10 @@
 			<a href="javascript:void(0);">
 				<div class="bot-head">关于我们</div>
 			</a>
-			<a href="building.html" target="_blank">
+			<a href="homepage-description.html?index=1" target="_blank">
 				<div class="bot-li-text">公司信息</div>
 			</a>
-			<a href="building.html" target="_blank">
+			<a href="homepage-description.html?index=2" target="_blank">
 				<div class="bot-li-text">加入我们</div>
 			</a>
 		</div>
@@ -26,13 +26,13 @@
 			<a href="javascript:void(0);">
 				<div class="bot-head">服务内容</div>
 			</a>
-			<a href="building.html" target="_blank">
+			<a href="homepage-description.html?index=3" target="_blank">
 				<div class="bot-li-text">产品分类</div>
 			</a>
-			<a href="building.html" target="_blank">
+			<a href="homepage-description.html?index=4" target="_blank">
 				<div class="bot-li-text">成功案例</div>
 			</a>
-			<a href="building.html" target="_blank">
+			<a href="homepage-description.html?index=5" target="_blank">
 				<div class="bot-li-text">详细介绍</div>
 			</a>
 		</div>
