@@ -70,13 +70,20 @@ define(function(require, exports, module) {
 			index == undefined ? (index = 0) : ('');
 			//子页面的处理逻辑和函数都在这里面
 			//homepage-desc-cont0.tpl
-			var htmlStr = "tpl/homepage-desc-cont" + index + ".tpl";
-			Rose.ajax.getHtml(htmlStr, function(html, status) {
-				if (status) {
-					var template1 = Handlebars.compile(html);
-					$("#JS_STEP_2").html(template1(index));
-				};
-			});
+			//这个逻辑 判断模块元素是否加载过模板[如果加载过,那么只要进行显示隐藏控制;如果没有,那么加载]
+			if ($("#JS_STEP_2").find(".Step2_cont").eq(index).html() != "") {
+					$("#JS_STEP_2").find(".Step2_cont").removeClass("active");
+					$("#JS_STEP_2").find(".Step2_cont").eq(index).addClass("active");
+			}else{
+				var htmlStr = "tpl/homepage-desc-cont" + index + ".tpl";
+				Rose.ajax.getHtml(htmlStr, function(html, status) {
+					if (status) {
+						var template1 = Handlebars.compile(html);
+						$("#JS_STEP_2").find(".Step2_cont").removeClass("active");
+						$("#JS_STEP_2").find(".Step2_cont").eq(index).html(template1(index)).addClass("loaded").addClass("active");
+					};
+				});
+			}
 
 
 		},
@@ -105,8 +112,7 @@ function initHandlebarsHelpers() {
 	 */
 	Handlebars.registerHelper('getHomeTitle', function(data, fn) {
 		// <img src="img/icon/green-line.png" class="section2-line "><p class="title-one ">产品优势</p><p class="title-two ">PRODUCT ADVANTAGE</p>
-
-		var info = getTitleInfo(data);
+		var info = getTitleInfo(Number(data));
 		var str = '<img src="img/icon/green-line.png" class="section2-line "><p class="title-one">';
 		str += info[0];
 		str += '</p><p class="title-two ">';

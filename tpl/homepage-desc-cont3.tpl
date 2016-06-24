@@ -1,4 +1,4 @@
-<div class="productCategory">
+<div class="productcategory">
 		<div class="titile">
 			{{getHomeTitle this}}
 		</div>
