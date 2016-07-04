@@ -125,7 +125,7 @@ html, body {
 	width: 100%;
 }
 .box-l-X {
-	margin-left: 366px;
+	margin-left: 17%;
 	float: left;
 	width: 104px;
 	margin-top: 16px;
@@ -141,7 +141,7 @@ html, body {
 .box-r {
 	float: right;
 	color: #fff;
-	margin-right: 373px;
+    margin-right: 17%;
 	line-height: 67px;
 }
 .go-index {
@@ -182,11 +182,10 @@ img {
 	top: 56px;
 }
 .content-four-content {
-	width: 62%;
+	width: 97%;
 	height: 400px;
-	position: absolute;
-	top: 184px;
-	left: 22.8%;
+    margin: 220px auto;
+    padding-top: 142px;
 }
 .tp101 {
 	width: 50%;
@@ -432,7 +431,7 @@ img {
 .content_four_part_4 .cont {
 	width: 201px;
 	height: 352px;
-	margin-right: 40px;
+	margin-right: 3%;
 	border: 1px solid #48DEB2;
 	float: left;
 }

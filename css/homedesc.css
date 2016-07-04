@@ -220,7 +220,7 @@
 	margin-bottom: 41px;
 }
 .join-cont1 {
-	margin: 0px 15%;
+	margin: 0px 3%;
 	text-align: center;
 	margin-top: 113px;
 }
@@ -254,7 +254,7 @@
 	margin-bottom: 110px;
 }
 .join-cont3 {
-	margin: 0px 15%;
+	margin: 0px 8%;
 	text-align: center;
 	margin-bottom: 200px;
 }
@@ -328,7 +328,7 @@
 	display: inline-block;
 }
 .intr_cont4 .intr_img {
-	margin-right: 119px;
+	margin-right: 6%;
 }
 .intr_cont5 {
 	background-image: url("../img/homedesc/intromore/bg2.png");
@@ -386,7 +386,7 @@
 }
 .intr_cont7 div {
 	display: inline-block;
-	margin-right: 173px;
+	width: 48%;
 }
 .intr_cont7 .intr7_t1 {
 	font-weight: bold;
@@ -406,7 +406,6 @@
 }
 .intr_cont8 div {
 	display: inline-block;
-	margin-right: 431px;
 }
 .intr_cont8 .intr8_t1 {
 	font-weight: bold;
@@ -415,11 +414,13 @@
 .intr_cont8 .intr8_t2 {
 	position: relative;
 	bottom: 3em;
+	 width: 48%;
 }
 .new_cont {
-	margin: 62px 342px;
+	margin: 62px 7%;
 	color: #737373;
     margin-bottom: -61px;
+    overflow: hidden;
 }
 .new_cont .new_year {
 	font-size: 16px;
@@ -433,17 +434,19 @@
 	right: 17px;
 }
 .new_ct {
+	position: relative;
 }
 .new_cont .new_left {
 	float: left;
 	position: relative;
+	    margin-left: 8%;
 }
 .new_cont .new_right {
-	width: 798px;
+	width: 58%;
 	margin-left: 153px;
-	bottom: 87px;
 	position: relative;
 	border-bottom: 1px dashed #000;
+	margin-bottom: 30px;
 }
 .new_cont .right_last{
 	border-bottom: none;
@@ -455,6 +458,7 @@
 	font-size: 14px;
 	margin-top: 20px;
 	margin-bottom: 34px;
+	color: #454545;
 }
 
 .new_cont .readAll:hover{
