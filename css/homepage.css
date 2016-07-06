@@ -326,7 +326,7 @@ img {
 	overflow: hidden;
 	width: 93%;
 	margin: 0 auto;
-	padding-top: 28px;
+	/*padding-top: 28px;*/
 }
 .brand-one, .brand-two {
 	overflow: hidden;
@@ -429,9 +429,9 @@ img {
 	margin-bottom: 50px;
 }
 .content_four_part_4 .cont {
-	width: 201px;
+	width: 22%;
 	height: 352px;
-	margin-right: 3%;
+	margin-right: 2%;
 	border: 1px solid #48DEB2;
 	float: left;
 }
@@ -450,7 +450,7 @@ img {
 }
 .last_part_cont {
 	overflow: hidden;
-	margin-top: 88px;
+	margin-top: 26px;
 }
 .last_part_right {
 	width: 41%;
@@ -476,6 +476,8 @@ img {
 .last_right_inline_right {
 	margin-left: 12%;
 }
+.last_part_left{  width: 40%;}
+.last_part_left img{  width: 100%;}
 .bot-bot {
 	display: none;
 	position: fixed;
