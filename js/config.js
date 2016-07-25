@@ -8,7 +8,7 @@
  // var basepath = "";
 //  conf [1:测试环境; 0 :本地环境]
  var conf = 0;
- var srcPref = ["/hg_xianfei_v2.4/","h5/"];
+ var srcPref = ["/hg_xianfei_v2.4/",""];
 var timeStamp = '$1?ver=' + new Date().getTime();
 seajs.config({
   'map': [

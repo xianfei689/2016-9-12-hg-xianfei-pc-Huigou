@@ -26,13 +26,14 @@ html, body {
 /*非必需，只是用来设置背景图，id不会被插件用到*/
 #section0 {
 	background-image: url(../img/icon/first-pic.jpg);
+	    background-position-y: -38px;
 }
 #section1 {
 	background-image: url(../img/icon/img2.jpg);
 }
 #section2 {
 	background-image: url(../img/icon/img3.jpg);
-	background-position-y: -18%;
+	    background-position-y: -42px;
 }
 #section3 {
 	background-image: url(../img/icon/img4.jpg);
@@ -185,6 +186,7 @@ img {
 	height: 400px;
     margin: 220px auto;
     padding-top: 142px;
+    margin-top: 0px;
 }
 .tp101 {
 	width: 50%;
@@ -215,7 +217,8 @@ img {
 	margin: 0 auto;
 }
 .content-two-content {
-	margin-top: 163px;
+	/* margin-top: 163px; */
+	/* padding-top: 163px; */
 }
 .title-one {
 	color: #6E6E6E;
@@ -292,7 +295,7 @@ img {
 .tip3 img {
 	position: absolute;
 	left: -126px;
-	top: 344px;
+	top: 284px;
 }
 .tip5 {
 	border: 1px solid #48DEB2;
@@ -303,7 +306,7 @@ img {
 	height: 30px;
 	line-height: 30px;
 	position: absolute;
-	top: 520px;
+	top: 469px;
 	left: -123px;
 }
 .tip5 img {
@@ -403,7 +406,7 @@ img {
 	font-size: 37px;
 	position: absolute;
 	left: -129px;
-	top: 225px;
+	top: 176px;
 }
 .content_four_part_4 {
 	width: 100%;
