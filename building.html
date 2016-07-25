@@ -16,44 +16,89 @@
 .bot{position:relative;}
 html, body{  overflow: visible;}
 #headerX{position:relative;}
+.bot-bot {
+    position: fixed;
+    bottom: 2px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #757575;
+    font-family: "microsoft yahei light";
+}
+.box-2-X {
+    margin: 19px 0px 22px 14px;
+    float: left;
+}
+.box-l-X {
+    margin-left: 17%;
+    float: left;
+    width: 104px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+.box-l-X img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.box-2-X img{
+	  margin-bottom: 20px;
+}
+.box-r {
+    float: right;
+    margin-right: 17%;
+    line-height: 67px;
+}
+.box {
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 56px;
+}
+#headerX {
+    top: 0;
+    width: 100%;
+    height: 56px;
+    background: #fff;
+    z-index: 100;
+}
+.bot-ul a{
+	color: #565656;
+}
+#bulidfooter{
+	position: relative;
+    bottom: 2px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #757575;
+    font-family: "microsoft yahei light";
+}
   </style>
+}
 <body>
-	<div id="header1" style="display:none;">
-		<div class="pure">
-			<div class="header-wrap">
-				<div id="header" >
-					<div class="box">
-						<a href="index.html"><div class="box-l"><img src="img/logo.png"></div></a>
-						<div class="box-r">
-							<a href="javascript:void(0);"><span class="go-index">积分运营</span></a>
-							<a href="javascript:void(0);"><span class="go-index">积分云<div class="ar-d"><img src="img/down.png"></div>
-								<div class="drop-ul">
-									<div class="drop-li">敬请期待</div>
-								</div>
-							</span></a>
-							<a href="javascript:void(0);"><span class="go-index">产品优势</span></a>
-							<a href="javascript:void(0);"><span class="go-index">联系我们</span></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 	<div id="header2"  >
 		<div class="pure">
 			<div class="header-wrap">
-				<div id="headerX" >
+					
+			<div id="headerX">
 					<div class="box">
-						<a href="index.html"><div class="box-l-X"><img src="img/logo2.png"></div></a>
+						<a href="index.html">
+						<div class="box-l-X">
+							<img src="img/icon/logo2.png">
+						</div>
+						<div class="box-2-X">
+							<img src="img/icon/stock.png">
+						</div>
+						</a>
 						<div class="box-r" style="color:#565656;">
-							<a href="index.html"><span class="go-index">积分运营</span></a>
-							<a href="index.html"><span class="go-index">积分云<div style="  top: 8px;" class="ar-d"><img src="img/down2.png"></div>
+							<a href="javascript:void(0);"><span class="go-index">积分运营</span></a>
+							<a href="javascript:void(0);"><span class="go-index integral-cloud">积分云
 							<div class="drop-ul-2">
 									<div class="drop-li-2">敬请期待</div>
 								</div>
 							</span></a>
-							<a href="index.html"><span class="go-index">产品优势</span></a>
-							<a href="index.html"><span class="go-index">联系我们</span></a>
+							<a href="javascript:void(0);"><span class="go-index product-advantage">产品优势</span></a>
+							<a href="javascript:void(0);"><span class="go-index">联系我们</span></a>
 						</div>
 					</div>
 				</div>
@@ -64,52 +109,45 @@ html, body{  overflow: visible;}
     <div id="container" data-XSwitch>
         <div class="sections">
            
-			<div class="section" id="section5"  style="background-color:#fff;">
-				<!--<div class="content-six" style="width:1200px;">
-					<div class="content-six-content"  style="padding-top:0px;  padding-left: 12%;">
-						<div class="add-box">
-							<div class="map"><img src="img/last/map.png"></div>
-							<div class="map-gap"><img src="img/last/ver-line.png"></div>
-							<div class="map-right">
-								<p style="color:#0084cd;font-size:24px;  margin-bottom: 10px;">想要了解更多</p>
-								<p style="color:#b7b7b7;font-size:24px;  margin-bottom: 36px;">Need more information</p>
-								<div class="addr-dem"><img class="addr-dem-img" src="img/last/phone.png"><span class="addr-dem-text">4000-986-566</span></div>
-								<div class="addr-dem"><img class="addr-dem-img" src="img/last/fax.png"><span class="addr-dem-text">0571-28135198</span></div>
-								<div class="addr-dem"><img class="addr-dem-img" src="img/last/addr.png"><span class="addr-dem-text">华东地址：浙江省杭州市滨江区滨盛路1505号银丰大厦8楼</span></div>
-								<p style="color:#565656;font-size:14px;  padding-left: 49px;">华南地址：广东省广州市白云区机场路131号白云商业中心6楼</p>
-							</div>
-						</div>
-					</div>
-				</div>-->
+			<div  style="background-color:#fff;">
 				<div class="center"></div>
-				<div class="bot">
-					<div class="bot-ul">
+			</div>
+
+			<div class="bot">
+					<div class="bot-ul" style="color:#565656">
 						<div class="bot-li">
 							<a href="javascript:void(0);"><div class="bot-li-text bot-head">新闻中心</div></a>
-							<a href="index.html"><div class="bot-li-text">企业公告</div></a>
-							<a href="index.html"><div class="bot-li-text">热点新闻</div></a>
+							<a href="building.html" target="_blank"><div class="bot-li-text">企业公告</div></a>
+							<a href="homepage-description.html?index=0" target="_blank"><div class="bot-li-text">热点新闻</div></a>
 						</div>
 						<div class="bot-li">
 							<a href="javascript:void(0);"><div class="bot-li-text bot-head">关于我们</div></a>
-							<a href="index.html"><div class="bot-li-text">公司信息</div></a>
-							<a href="index.html"><div class="bot-li-text">加入我们</div></a>
+							<a href="homepage-description.html?index=1" target="_blank"><div class="bot-li-text">公司信息</div></a>
+							<a href="homepage-description.html?index=2" target="_blank"><div class="bot-li-text">加入我们</div></a>
 						</div>
 						<div class="bot-li">
 							<a href="javascript:void(0);"><div class="bot-li-text bot-head">服务内容</div></a>
-							<a href="index.html"><div class="bot-li-text">产品分类</div></a>
-							<a href="index.html"><div class="bot-li-text">成功案例</div></a>
-							<a href="index.html"><div class="bot-li-text">详细介绍</div></a>
+							<a href="homepage-description.html?index=3" target="_blank"><div class="bot-li-text">产品分类</div></a>
+							<a href="homepage-description.html?index=4" target="_blank"><div class="bot-li-text">成功案例</div></a>
+							<a href="homepage-description.html?index=5" target="_blank"><div class="bot-li-text">详细介绍</div></a>
 						</div>
 						<div class="bot-li">
 							<a href="javascript:void(0);"><div class="bot-li-text bot-head">其他</div></a>
-							<a href="index.html"><div class="bot-li-text">帮助中心</div></a>
-							<a href="index.html"><div class="bot-li-text">使用指南</div></a>
+							<a href="building.html" target="_blank"><div class="bot-li-text">帮助中心</div></a>
+							<a href="building.html" target="_blank"><div class="bot-li-text">使用指南</div></a>
 						</div>
+						
 					</div>
 				</div>
-			</div>
+
+				 <div id="bulidfooter">
+							Copyright ©2014 hg365.com All Rights Reserved 浙江汇购科技股份有限公司 版权所有浙B2-20090284-4
+						</div>
         </div>
+       
     </div>
+
+    
     <script src="js/jquery-1.12.3.min.js" charset="utf-8"></script>
 	<script>
 	</script>

@@ -338,9 +338,9 @@ summary {
  * 隐藏滚动条
  */
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 0px;
-}
+} */
 
 
 /**

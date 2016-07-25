@@ -283,7 +283,6 @@
 }
 .intr_cont2 {
 	background-image: url("../img/homedesc/intromore/bg1.png");
-	width: 100%;
 	height: 545px;
 	font-size: 14px;
 	color: #e1e1e1;
@@ -332,7 +331,6 @@
 }
 .intr_cont5 {
 	background-image: url("../img/homedesc/intromore/bg2.png");
-	width: 100%;
 	height: 532px;
 	font-size: 14px;
 	color: #e1e1e1;
@@ -363,7 +361,6 @@
 	margin-top: 20px;
 }
 .intr_cont6 {
-	width: 100%;
 	font-size: 14px;
 	color: #454545;
 	padding-left: 22%;
@@ -377,7 +374,6 @@
 	margin-bottom: 30px;
 }
 .intr_cont7 {
-	width: 100%;
 	font-size: 14px;
 	color: #454545;
 	padding-left: 22%;
@@ -397,7 +393,6 @@
 	bottom: 1em;
 }
 .intr_cont8 {
-	width: 100%;
 	font-size: 14px;
 	color: #454545;
 	padding-left: 22%;
@@ -553,7 +548,6 @@
 }
 .bot-bot {
 	font-family: "Microsoft YaHei";
-	line-height: 1.2;
 	width: 100%;
 	text-align: center;
 	font-size: 12px;

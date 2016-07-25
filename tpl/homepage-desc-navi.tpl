@@ -18,7 +18,7 @@
   			<a class="nav"  title="detailInfo">详细介绍</a>
   		</li>
   		<li>
-  			<a class="nav-home" href="homepage.html" title="home">HOME></a>
+  			<a class="nav-home" href="index.html" title="home">HOME></a>
         <img src="img/homedesc/product/navi.png">
   		</li>
   	</ul>

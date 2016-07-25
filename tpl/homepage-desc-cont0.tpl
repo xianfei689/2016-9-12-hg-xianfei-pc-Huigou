@@ -15,7 +15,7 @@
 				“2009年作为类高新企业，落户杭州，一年之内签约一二线品牌供应商数百家，合作伙伴遍布金融、航空和电
 信等领域。”...
 			</p>
-			<a class="readAll" href="http://beixiao.baijia.baidu.com/article/350831?qq-pf-to=pcqq.c2c">阅读全文></a>
+			<a class="readAll" href="http://beixiao.baijia.baidu.com/article/350831?qq-pf-to=pcqq.c2c"  target="_blank">阅读全文></a>
 
 		</div>
 	</div>
@@ -26,7 +26,7 @@
 		<div class="new_left">
 			<img src="img/homedesc/com/vline.png">
 			<span class="new_year">三月</span>
-			<span class="new_day">11</span>
+			<span class="new_day">03</span>
 		</div>
 		<div class="new_right">
 			<p class="news_t">积分运营综合服务商汇购科技新三板挂牌上市</p>
@@ -35,7 +35,7 @@
 			2月3日消息，全国中小企业股份转让系统公告显示，汇购科技的挂牌申请获得批准，并于今日公开转让，证券
 代码为：835795...
 			</p>
-			<a class="readAll" href="http://www.howbuy.com/news/2016-02-03/4025622.html">阅读全文></a>
+			<a class="readAll" href="http://www.howbuy.com/news/2016-02-03/4025622.html"  target="_blank">阅读全文></a>
 
 		</div>
 	</div>
@@ -45,7 +45,7 @@
 		<div class="new_left">
 			<img src="img/homedesc/com/vline.png">
 			<span class="new_year">三月</span>
-			<span class="new_day">11</span>
+			<span class="new_day">18</span>
 		</div>
 		<div class="new_right">
 			<p class="news_t">投资人点评浙江汇购科技股份有限公司</p>
@@ -55,7 +55,7 @@
 提问：有一个问题不太明白。举个例子，我现在买机票优先选择国航。如果国航加入你这个积分联盟，对于我
 来说买哪个航空公司没有那么重要。我想请教一下航空公司和银行加入...
 			</p>
-			<a class="readAll" href="http://sc.stock.cnfol.com/gppdgdzx/20151118/21805234.shtml">阅读全文></a>
+			<a class="readAll" href="http://sc.stock.cnfol.com/gppdgdzx/20151118/21805234.shtml"  target="_blank">阅读全文></a>
 
 		</div>
 	</div>
@@ -65,7 +65,7 @@
 		<div class="new_left">
 			<img src="img/homedesc/com/vline.png">
 			<span class="new_year">三月</span>
-			<span class="new_day">11</span>
+			<span class="new_day">18</span>
 		</div>
 		<div class="new_right right_last">
 			<p class="news_t">浙江汇购科技股份有限公司路演资料</p>
@@ -74,7 +74,7 @@
 				新三板助力中国互联网企业腾飞，首创2015互联网投资峰会11月18日在北京金融街(000402,股吧)威斯汀大
 酒店举办，上海银橙文化传媒股份有限公司、北京络捷斯特科技发展股份有限公司...
 			</p>
-			<p class="readAll" href="http://stock.hexun.com/2015-11-18/180651799.html">阅读全文></p>
+			<p class="readAll" href="http://stock.hexun.com/2015-11-18/180651799.html"  target="_blank">阅读全文></p>
 
 		</div>
 	</div>
