@@ -74,7 +74,7 @@
 				新三板助力中国互联网企业腾飞，首创2015互联网投资峰会11月18日在北京金融街(000402,股吧)威斯汀大
 酒店举办，上海银橙文化传媒股份有限公司、北京络捷斯特科技发展股份有限公司...
 			</p>
-			<p class="readAll" href="http://stock.hexun.com/2015-11-18/180651799.html"  target="_blank">阅读全文></p>
+			<a class="readAll" href="http://stock.hexun.com/2015-11-18/180651799.html"  target="_blank">阅读全文></a>
 
 		</div>
 	</div>

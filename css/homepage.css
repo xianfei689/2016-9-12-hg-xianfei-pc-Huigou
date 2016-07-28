@@ -198,7 +198,8 @@ img {
 .tip img {
 	position: fixed;
 	top: 40%;
-	left: 15%;
+	left: 13%;
+	    width: 28%;
 }
 .tip2 {
 	width: 86%;
